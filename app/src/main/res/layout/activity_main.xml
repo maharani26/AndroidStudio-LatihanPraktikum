@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="340dp"
+        android:onClick="toast"
+        android:text="Toast" />
+
+    <Button
+        android:id="@+id/btnAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="278dp"
+        android:onClick="alarm"
+        android:text="Alarm" />
+
+    <Button
+        android:id="@+id/btnMaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="208dp"
+        android:onClick="maps"
+        android:text="Maps" />
+
+    <Button
+        android:id="@+id/btnPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="140dp"
+        android:onClick="picture"
+        android:text="Picture" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="238dp"
+        android:layout_height="57dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="412dp"
+        android:text="Silahkan Memilih Kategori"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+</RelativeLayout>
